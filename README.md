@@ -16,7 +16,7 @@ Fix common issues like Module Errors, Loader/Initializing problems, HWID failure
 
 > **Note:** Always download Wave from the official source (`getwave.gg`) to avoid fakes or malware.
 
-![Wave GIF](https://s13.gifyu.com/images/bqPXB.md.png)
+![Wave GIF](https://s13.gifyu.com/images/bqPe1.png)
 
 ---
 
