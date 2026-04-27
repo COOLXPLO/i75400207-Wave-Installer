@@ -1,0 +1,146 @@
+# 🔥 WAVE EXECUTOR - ULTIMATE TROUBLESHOOTING GUIDE (April 2026)
+
+Your complete survival manual when Wave decides to troll you.
+
+All credits go to the **Wave staff team** and the community.  
+Last Updated: **April 2026**
+
+### Official Links
+- **Download**: https://getwave.gg/downloads/Wave.exe
+- **Buy Keys**: https://getwave.gg/resellers
+- **Website**: https://getwave.gg/
+- **Main Discord**: https://discord.gg/vj364gcjsr
+- **Extra Fixes (Duckys Playground)**: https://duckys-playground.gitbook.io/wave/support
+
+---
+
+### General Prerequisites (Do These First)
+Before trying any specific fix:
+- Disable **real-time protection** (Windows Defender + any 3rd-party AV)
+- Add the **entire Wave folder** to exclusions
+- Temporarily uninstall 3rd-party antiviruses
+- Run **everything as Administrator**
+- Clear `%temp%` folder
+- Delete Wave folder from `%localappdata%`
+- Restart your PC after installing dependencies
+
+#### Recommended Dependencies (Install + Restart PC)
+- Windows Desktop Runtime 3.1.32 x64
+- .NET Desktop Runtime 6.0 & 8.0 (x64)
+- Visual C++ Redistributable (x86 + x64) — install 2015-2022, 2013, 2010, etc.
+- Node.js (Latest LTS)
+
+**Custom Launchers (Highly Recommended):**
+- [Fishstrap](https://github.com/fishstrap/fishstrap/releases) — Set channel to **LIVE** (never change) in Deployments tab
+
+**VPN / DNS Fixes (Very Common):**
+- Proton VPN: https://protonvpn.com/
+- Cloudflare WARP / DNS: https://1.1.1.1/
+
+---
+
+### 1. WAVE NOT DOWNLOADING
+- Disable real-time protection and add exclusions
+- Uninstall 3rd-party antiviruses / browser guards
+- Try Proton VPN or different browser
+
+### 2. WAVE CRASHING ON LAUNCH
+- Disable real-time protection + add Wave folder to exclusions
+- Delete Wave & Wave.Webview2 folders from `%localappdata%`
+- Run **Wave.exe** directly (not Bootstrapper) as admin
+- Clear `%temp%`
+- Turn **Smart App Control** Off in Windows Security
+
+### 3. WAVE NOT INJECTING / CRASHING DURING INJECTION
+**Quick Fix:** Run `Wave.exe` directly from `%localappdata%`
+
+**Main Fix:**
+- Disable AV + exclusions
+- Install **Fishstrap** and set to LIVE channel
+- Install all dependencies + restart PC
+- Launch Roblox/Fishstrap first → then run `ClientManager.exe` as admin from Wave\bin folder
+
+### 4. WaveBootstrapper.exe CRASHING
+- Disable AV
+- Redownload Bootstrapper
+- Use Proton VPN
+- Install VC Redist + .NET 3.1.32 + restart
+
+### 5. NO TEXTBOX / NO EXECUTE BUTTON
+- Run the registry fix file as admin
+- Delete Wave folder from `%localappdata%` → reinstall as admin
+- Install Fishstrap + all dependencies
+
+### 6. REGISTRY MISMATCH | 0x700001 | FAILED TO READ SESSION FROM REGISTRY | ERROR 2231
+- Close Wave
+- Delete Wave folders from `%localappdata%` and `%temp%`
+- Redownload and run as admin
+- Run Roblox as administrator
+
+### 7. ACCESS DENIED (Bloxstrap.exe or others) / EPERM Operation
+- Close Wave + Roblox
+- Delete Bloxstrap folder from `%localappdata%`
+- Move `bloxstrap.exe` from `%localappdata%\Wave\Bin` to `%localappdata%\Bloxstrap`
+- Use VPN or Cloudflare DNS
+
+### 8. VERIFICATION EMAIL NOT RECEIVED / AUTHENTICATION FAILED / USERNAME ALREADY TAKEN
+- Use **Proton VPN** or **Cloudflare WARP**
+- Try Yahoo email
+- For HWID lock: Wait 3 days for automatic reset
+
+### 9. NON ZERO EXIT CODE ERROR
+- Disable AV + exclusions
+- Reinstall Roblox cleanly
+- Delete Wave folders + redownload
+- Run as admin
+- Fully update Windows
+
+### 10. FFMPEG ERROR
+- Download `ffmpeg.dll` and put it in your Wave folder
+
+### 11. FETCH FAILED / SSL ERROR / UNEXPECTED EOF
+- Use Proton VPN or Cloudflare DNS (1.1.1.1)
+
+### 12. FAILED TO START CLIENT MANAGER AFTER 3 ATTEMPTS
+- Install Fishstrap → Deployments → Set to **LIVE** (never change)
+- Disable AV and reinstall Wave
+
+### 13. UNABLE TO FIND REGISTRY KEY
+- Run the wave-fixes.bat as admin
+- Close and reopen loader
+
+### 14. WAVE REQUIRES ELEVATED PERMS / ACCESS IS DENIED / CANNOT ACCESS DEVICE/PATH/FILE
+- Go to `%localappdata%\Wave` → Run Wave.exe as administrator
+- Make sure your Windows account has admin rights
+
+### 15. WHITE/BLACK SCREEN
+- Update your graphics drivers
+
+### 16. SESSION INVALID / EXPIRED
+- Log out of Wave account → log back in
+
+### 17. KEY ALREADY REDEEMED OR DOES NOT EXIST
+- Keep closing and reopening Wave until subscription time adds
+
+### 18. VERSION MISMATCH
+- Install latest Fishstrap
+- Set deployment channel to LIVE (never change)
+
+### 19. ROBLOX CRASHING
+- Uninstall all Wave files using **Revo Uninstaller**
+- Reinstall Fishstrap
+
+### 20. UNABLE TO REDEEM KEY
+- Use Proton VPN or Cloudflare DNS
+
+---
+
+**Tip:** Most issues are solved by:
+1. Disabling antivirus + adding exclusions
+2. Installing Fishstrap + setting LIVE channel
+3. Using a VPN (Proton/Cloudflare)
+4. Installing all Visual C++ and .NET runtimes
+
+If nothing works, join the official Wave Discord for latest help.
+
+Made with ❤️ for the Wave community.
