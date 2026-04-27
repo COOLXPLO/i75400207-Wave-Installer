@@ -20,6 +20,14 @@ Fix common issues like Module Errors, Loader/Initializing problems, HWID failure
 
 ---
 
+## 🛠️ Fix Internal Error
+
+![Fix Internal Error](https://s13.gifyu.com/images/bqPXB.md.png)
+
+If you're getting **"Internal Error"** or similar crashes, this tool is specifically designed to fix it along with many other common Wave issues.
+
+---
+
 ## 🚀 How to Use the Fixer
 
 1. Download the latest **FixWave.bat** from this repository (Releases tab recommended).
