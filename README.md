@@ -1,4 +1,4 @@
-# Wave Fixer / RedFox Wave Installer
+# Wave Fixer Installer
 
 ![Wave Banner](https://s13.gifyu.com/images/bqPX1.png)
 
